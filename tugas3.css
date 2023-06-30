@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+.container {
+    width: 1250px;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+}
+
+h2 {
+    text-align: left; 
+    text-indent: 110px;
+    font-size: 40px;
+    color: rgb(79, 74, 74);
+    margin-left: 40px;
+
+}
+
+.aside-group {
+    margin-bottom: 16px;
+}
+aside{
+    width: 425px;
+    margin: 50px;
+    display: inline;
+}
+.aside-group{
+    width: 500px;
+}
+.aside-group label {
+    display: block;
+    width: 100px;
+    margin: 15px 0 15px 0;
+    font-size: 20px;
+}
+
+.aside-group input[type="Nisn"], .aside-group input[type="password"] {
+    width: 74%;
+    padding: 8px;
+    border: 1px solid #131313;
+    border-radius: 8px;
+    height: 22px;
+}
+
+.aside-group button {
+    width: 78%;
+    padding: 8px;
+    background-color: #112986bb;
+    color: #fff;
+    border: navy;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 80px;
+    height: 42px;
+}
+.solo{
+    color: rgb(79, 79, 234);
+    width: 100%;
+    padding-top: 70px;
+    text-align: center; 
+    margin-top: 80px;
+}
+
+.aside-group button:hover {
+    background-color: #010824bb;
+}
+
+.aside-group img {
+    position: relative;
+    top: 50%;
+    left: -30px;
+    width: 16px;
+    height: 16px;
+    bottom: -4px;
+}
+.login-image{
+    width: 720px;
+    display: inline;
+}
+.login-image img {
+    width: 620px;
+    float: right;
+}
