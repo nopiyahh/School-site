@@ -1,0 +1,128 @@
+/* Style untuk navigasi */
+nav {
+    background-color: white;
+    /* color: rgba(7, 6, 23, 0.80); */
+    width: 240px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    overflow: auto;
+    scrollbar-width: none; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav img{
+    width: 220px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+nav ul {
+    list-style-type: none;
+    margin-top: 40px;
+    margin-bottom: 200px;
+    padding: 0;
+}
+li a:hover{
+    background-color: #141230;
+    color: white;
+    opacity: 40%;
+}
+nav ul li a {
+    color: rgba(7, 6, 23, 0.80);
+    text-decoration: none;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li a i {
+    margin-right: 12px;
+    margin-left: 15px;
+}
+
+.active-page{
+    background-color: #141230;
+    color: white;
+    opacity: 50%;
+}
+
+.spesial2{
+    padding-left: 40px;
+}
+
+.title{
+    color: rgba(7, 6, 23, 0.60); 
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    margin-left: 10px;
+}
+
+
+/* header section */
+header {
+    background-color: #4867B7;
+    color: #fff;
+    padding: 40px 20px 85px 270px;
+    padding-left: 300px;
+}
+
+header div img{
+    width: 20px;
+    margin: 2px 10px -5px 10px;
+}
+
+.profil_kanan{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: #fff;
+}
+
+.profile-icon-image{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+
+
+/**main section **/
+body{
+    scrollbar-width: none; 
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    background-color: rgb(231, 231, 231);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h3{
+    margin: 0px 0px 10px 0px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: -40px 30px 20px 280px ;
+    padding: 10px 50px 50px 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    height: auto;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+

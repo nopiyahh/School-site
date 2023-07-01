@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tampilan Website Sekolah</title>
+    <title>Profil Siswa</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="./css/profil.css">
+    <link rel="stylesheet" href="../css/profil.css">
+    <link rel="stylesheet" href="../css/template.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -13,37 +17,37 @@
         <h2>Selamat Datang Kembali, Pevita</h2>
         <div class="profil_kanan">
             <i class="fa-solid fa-bell"></i>
-            <img src="./foto/pevita.png" alt="profil Pevita">
+            <img src="../assets/pevita.png" alt="profil Pevita" class="profile-icon-image">
             <span>Pevita</span>
         </div>
     </header>
 
     <nav>
-        <img src="./foto/Frame 1.png" alt="ikon topi wisuda">
-        <h3>Main Menu</h3>
-        <ul>
-            <li><a href="#"><i class="fas fa-chart-bar"></i>Dashboard</a></li>
-            <li><a href="#"><i class="fas fa-user"></i>Profil</a></li>
-            <li><a href="#"  class="spesial1">Pemberkasan</a></li>
-            <li><a href="#"><i class="fas fa-upload"></i>Unggah Berkas</a></li>
-            <li><a href="#"><i class="fas fa-file-alt"></i>Pengajuan Ijin</a></li>
-            <li><a href="#" class="spesial2">• Absen</a></li>
-            <li><a href="#" class="spesial2">• Ekskul</a></li>
-            <li><a href="#" class="spesial2">• Lomba</a></li>
-            <li><a href="#" class="spesial2">• Seminar</a></li>
-            <li><a href="#" class="spesial2">• Kehadiran</a></li>
+        <img src="../assets/Frame 1.png" alt="ikon topi wisuda">
+        <ul >
+            <li ><p class="title navigation-list">Main Menu</p></li>
+            <li><a href="./menuProfil.html"><i class="fa-solid fa-house"></i>Dashboard</a></li>
+            <li><a href="#" class="active-page"><i class="fa-solid fa-user"></i>Profil</a></li>
+            <li><p class="title">Pemberkasan</p></li>
+            <li><a href="#"><i class="fa-solid fa-file-arrow-up"></i>Unggah Berkas</a></li>
+            <li><a href="#"><i class="fa-solid fa-file-signature"></i>Pengajuan Ijin</a></li>
+            <li class="spesial2"><a href="#">• Absen</a></li>
+            <li class="spesial2"><a href="#">• Ekskul</a></li>
+            <li class="spesial2"><a href="#">• Lomba</a></li>
+            <li class="spesial2"><a href="#">• Seminar</a></li>
+            <li class="spesial2"><a href="#">• Kehadiran</a></li>
             <li><a href="#"><i class="fas fa-history"></i>Riwayat Pengajuan</a></li>
-            <li><a href="#"  class="spesial1">Keuangan</a></li>
-            <li><a href="#"><i class="fa-solid fa-rupiah-sign"></i>Pembayaran SPP</a></li>
+            <li><p class="title">Keuangan</p></li>
+            <li><a href="#"><i class="fa-solid fa-money-bill-1-wave"></i>Pembayaran SPP</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="main">
         <p class="judul"><b>Profil</b></p>
         <div class="profil_data">
             <table>
                 <tr>
                     <td rowspan="5">
-                        <img src="./foto/pevita.png" alt="Profil Pevita"></td>
+                        <img src="../assets/pevita.png" alt="Profil Pevita"></td>
                     <td>NISN</td>
                     <td>:</td>
                     <td>32003627</td>
@@ -65,7 +69,6 @@
                 <tr><td>Nama Ayah</td><td>:</td><td>Muhammad Yusuf</td></tr>
                 <tr><td>Nama Ibu</td><td>:</td><td>Siti Julaika</td></tr>
             </table>
-
         </div>
     </main>
 </body>
