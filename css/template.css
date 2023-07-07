@@ -9,6 +9,13 @@ nav {
     overflow: auto;
     scrollbar-width: none; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    transition: 0.4s;
+}
+
+nav::-webkit-scrollbar {
+    display: none;
 }
 
 nav img{
@@ -58,6 +65,17 @@ li a i {
     font-weight: 500;
     line-height: normal; 
     margin-left: 10px;
+}
+
+.navigation-open{
+    display: none;
+    cursor: pointer;
+}
+
+.navigation-close{
+    margin-left: 200px; 
+    margin-top: 20px;
+    display: none;
 }
 
 
@@ -121,6 +139,20 @@ main{
     text-align: justify;
 }
 
+
+@media screen and (max-width: 400px) {
+    nav {
+        width: 0;
+    }
+
+    header, main {
+        padding: 20px;
+    }
+
+    .navigation-open, .navigation-close{
+        display: block;
+    }
+  }
 
 
 
