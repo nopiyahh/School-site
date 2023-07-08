@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    background-color: rgb(231, 231, 231);
+}
+/* Style untuk header */
+header {
+    background-color: rgb(58, 130, 255);
+    color: #fff;
+    padding: 20px 20px 85px 270px;
+    padding-left: 250px;
+}
+
+h2{
+    margin: 0px 0px 10px 0px;
+    
+}
+
+/* Style untuk navigasi */
+nav {
+    background-color: white;
+    color: black;
+    padding: 10px 0px 10px 10px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav img{
+    width: 210px;
+    margin: 10px 10px 20px 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li:hover{
+    background-color: grey;
+    color: white;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a i {
+    margin-right: 10px;
+}
+h3, .spesial1{
+    padding-bottom: 3px;
+    color: #070617ab;
+}
+.spesial2{
+    padding-left: 30px;
+}
+.profil_kanan{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+}
+header div img{
+    width: 20px;
+    margin: 2px 10px -5px 10px;
+}
+span{
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+main{
+    width: 930px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: -40px 30px 20px 230px ;
+    padding: 10px 50px 50px 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+td{
+    padding: 0px 0px 4px 30px;
+    width: 150px;
+    text-align: center;
+    padding: 7px 0;
+    
+    border-top: 1px solid gray;
+}
+
+.garis{
+    width: 760px;
+    padding: 7px;
+    border-bottom: 1px solid rgb(65, 65, 65);
+}
+table{
+    padding-top: 10px;
+}
+th{
+    text-align: left;
+    padding: 0 0px 10px 0;
+    width: 200px;
+    
+}
+.tombol{
+    text-align: center;
+    padding-top: 20px;
+}
+tr{
+    padding-bottom: 20px;
+}
+input{
+    width: 182px;
+}
+button{
+    background-color: rgb(90, 90, 233);
+    border-radius: 7px;
+    color: white;
+    padding: 2px 8px;
+}
+a{
+    text-decoration: none;
+}
