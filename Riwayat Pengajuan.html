@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampilan Website Sekolah</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="../css/profil.css"> -->
+    <link rel="stylesheet" href="./css/PIL.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "240px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-bars navigation-open"  onclick="openNav()"></i>
+        <p>Pemberkasan / <b>Unggah Berkas</b></p>
+        <h2>Selamat Datang Kembali, Pevita</h2>
+        <div class="profil_kanan">
+            <i class="fa-solid fa-bell"></i>
+            <img src="./assets/pevita.png" alt="profil Pevita" class="profile-icon-image">
+            <span>Pevita</span>
+        </div>
+    </header>
+
+    <nav id="mySidenav">
+        <i class="fa-solid fa-close navigation-close"  href="javascript:void(0)" onclick="closeNav()"></i>
+        <img src="./assets/Frame 1.png" alt="ikon topi wisuda">
+        <ul >
+            <li></li>
+            <li ><p class="title navigation-list">Main Menu</p></li>
+            <li><a href="./menuDashboard.html"><i class="fa-solid fa-house"></i>Dashboard</a></li>
+            <li><a href="./menuProfil.html" ><i class="fa-solid fa-user"></i>Profil</a></li>
+            <li><p class="title">Pemberkasan</p></li>
+            <li><a href="./menuUnggahBerkas.html"><i class="fa-solid fa-file-arrow-up"></i>Unggah Berkas</a></li>
+            <li><a href="./menuPengajuanIzin.html" ><i class="fa-solid fa-file-signature"></i>Pengajuan Ijin</a></li>
+            <li class="spesial2"><a href="#">• Absen</a></li>
+            <li class="spesial2"><a href="#">• Ekskul</a></li>
+            <li class="spesial2"><a href="#">• Lomba</a></li>
+            <li class="spesial2"><a href="#">• Seminar</a></li>
+            <li class="spesial2"><a href="#">• Kehadiran</a></li>
+            <li><a href="./menuRiwayatPengajuan.html" class="active-page"><i class="fas fa-history"></i>Riwayat Pengajuan</a></li>
+            <li><p class="title">Keuangan</p></li>
+            <li><a href="./menuPembayaranSpp.html"><i class="fa-solid fa-money-bill-1-wave"></i>Pembayaran SPP</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p class="judul"><h2>Riwayat Pengajuan Izin Kegiatan</h2></p>
+            <table>
+                <tr>
+                    <th class="bayar">Tgl Pengajuan</th>
+                    <th class="bayar">Perihal</th>
+                    <th class="bayar">Status</th>
+                    <th class="bayar">Keterangan</th> 
+                    <th class="bayar"></th>
+                </tr>
+                <tr>
+                    <td class="bayar">11/09/2021</td>
+                    <td class="bayar">Lomba</td>
+                    <td class="bayar"><i class="fa-sharp fa-solid fa-circle-check" style="color: #4db94b;"></i></td>
+                    <td class="bayar">-</td>
+                    <td class="bayar"><a href="">Detail</a></td>
+                </tr>
+                <tr>
+                    <td class="bayar">03/12/2021</td>
+                    <td class="bayar">Seminar</td>
+                    <td class="bayar"><i class="fa-solid fa-triangle-exclamation" style="color: #fb3232;"></i></td>
+                    <td class="bayar">Kegiatan bertepatan UTS</td>
+                    <td class="bayar"><a href="">Detail</a></td>
+                </tr>
+                <tr>
+                    <td class="bayar">28/05/2022</td>
+                    <td class="bayar">Lomba</td>
+                    <td class="bayar"><i class="fa-sharp fa-solid fa-circle-check" style="color: #4db94b;"></i></td>
+                    <td class="bayar">-</td>
+                    <td class="bayar"><a href="">Detail</a></td>
+                </tr>
+                <tr>
+                    <td class="bayar">17/08/2022</td>
+                    <td class="bayar">Seminar</td>
+                    <td class="bayar"><i class="fa-solid fa-triangle-exclamation" style="color: #fb3232;"></i></td>
+                    <td class="bayar">Kegiatan bertepatan Hari Kemerdekaan RI</td>
+                    <td class="bayar"><a href="">Detail</a></td>
+                </tr>
+                <tr>
+                    <td class="bayar">20/11/2022</td>
+                    <td class="bayar">Lomba</td>
+                    <td class="bayar"><i class="fa-sharp fa-solid fa-circle-check" style="color: #4db94b;"></i></td>
+                    <td class="bayar">-</td>
+                    <td class="bayar"><a href="">Detail</a></td>
+                </tr>
+                <tr>
+                    <td class="bayar">01/12/2022</td>
+                    <td class="bayar">Seminar</td>
+                    <td class="bayar"><i class="fa-solid fa-triangle-exclamation" style="color: #fb3232;"></i></td>
+                    <td class="bayar">Kegiatan bertepatan UTS</td>
+                    <td class="bayar"><a href="">Detail</a></td>
+                </tr>
+                <tr>
+                    <td class="bayar">07/02/2023</td>
+                    <td class="bayar">Lomba</td>
+                    <td class="bayar"><i class="fa-sharp fa-solid fa-circle-check" style="color: #4db94b;"></i></td>
+                    <td class="bayar">-</td>
+                    <td class="bayar"><a href="">Detail</a></td>
+                </tr>
+                <tr>
+                    <td class="bayar">23/04/2022</td>
+                    <td class="bayar">Seminar</td>
+                    <td class="bayar"><i class="fa-solid fa-triangle-exclamation" style="color: #fb3232;"></i></td>
+                    <td class="bayar">Kegiatan bertepatan UAS</td>
+                    <td class="bayar"><a href="">Detail</a></td>
+                </tr>
+            </table>
+
+        </div>
+    </main>
+</body>
+</html>
