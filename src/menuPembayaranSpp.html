@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampilan Website Sekolah</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/template.css">
+    <link rel="stylesheet" href="../css/pembayaran.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "240px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-bars navigation-open"  onclick="openNav()"></i>
+        <p>Pemberkasan / Pembayaran SPP <b></b></p>
+        <h2>Selamat Datang Kembali, Pevita</h2>
+        <div class="profil_kanan">
+            <i class="fa-solid fa-bell"></i>
+            <img src="../assets/pevita.png" alt="profil Pevita" class="profile-icon-image">
+            <span>Pevita</span>
+        </div>
+    </header>
+    <nav id="mySidenav">
+        <i class="fa-solid fa-close navigation-close"  href="javascript:void(0)" onclick="closeNav()"></i>
+        <img src="../assets/Frame 1.png" alt="ikon topi wisuda">
+        <ul >
+            <li></li>
+            <li ><p class="title navigation-list">Main Menu</p></li>
+            <li><a href="./menuDashboard.html"><i class="fa-solid fa-house"></i>Dashboard</a></li>
+            <li><a href="./menuProfil.html"><i class="fa-solid fa-user"></i>Profil</a></li>
+            <li><p class="title">Pemberkasan</p></li>
+            <li><a href="./menuUnggahBerkas.html"><i class="fa-solid fa-file-arrow-up"></i>Unggah Berkas</a></li>
+            <li><a href="./menuPengajuanIzin.html"><i class="fa-solid fa-file-signature"></i>Pengajuan Ijin</a></li>
+            <li class="spesial2"><a href="#">• Absen</a></li>
+            <li class="spesial2"><a href="#">• Ekskul</a></li>
+            <li class="spesial2"><a href="#">• Lomba</a></li>
+            <li class="spesial2"><a href="#">• Seminar</a></li>
+            <li class="spesial2"><a href="#">• Kehadiran</a></li>
+            <li><a href="./menuRiwayatPengajuan.html"><i class="fas fa-history"></i>Riwayat Pengajuan</a></li>
+            <li><p class="title">Keuangan</p></li>
+            <li><a href="./menuPembayaranSpp.html" class="active-page"><i class="fa-solid fa-money-bill-1-wave"></i>Pembayaran SPP</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p class="judul"><b>Pembayaran SPP</b></p>
+        <div class="profil_data">
+            <table>
+                <tr><td class="data_pembayaran">NISN</td><td class="data_pembayaran">:</td><td class="data_pembayaran">32003627</td> </tr>
+                <tr><td class="data_pembayaran">Nama</td><td class="data_pembayaran">:</td><td class="data_pembayaran">Pevita Cendrawasih</td></tr>
+                <tr><td class="data_pembayaran">Kelas</td><td class="data_pembayaran">:</td><td class="data_pembayaran">XI</td></tr>
+                <tr><td class="data_pembayaran">Peminatan</td><td class="data_pembayaran">:</td><td class="data_pembayaran">MIPA</td></tr>
+                <tr><td class="data_pembayaran">Tahun Ajaran</td><td class="data_pembayaran">:</td><td class="data_pembayaran"><button type="tahun">2022/2023</button></td></tr>
+            </table>
+            <table>
+                <tr>
+                    <th class="bayar">Periode Tagihan</th>
+                    <th class="bayar">Jumlah Tagihan</th>
+                    <th class="bayar">Status</th>
+                    <th class="bayar">Keterangan</th> 
+                    <th class="bayar"></th>
+                </tr>
+                <tr>
+                    <td class="bayar">Januari</td>
+                    <td class="bayar">Rp 450.000,00</td>
+                    <td class="bayar">Lunas</td>
+                    <td class="bayar">-</td>
+                    <td class="bayar"><a href="#">Detail</a></td>
+                </tr>
+                <tr>
+                    <td class="bayar">Februari</td>
+                    <td class="bayar">Rp 450.000,00</td>
+                    <td class="bayar">Lunas</td>
+                    <td class="bayar">-</td>
+                    <td class="bayar"><a href="#">Detail</a></td>
+                </tr>
+                <tr>
+                    <td class="bayar">Maret</td>
+                    <td class="bayar">Rp 450.000,00</td>
+                    <td class="bayar">Lunas</td>
+                    <td class="bayar">-</td>
+                    <td class="bayar"><a href="#">Detail</a></td>
+                </tr>
+                <tr>
+                    <td class="bayar">April</td>
+                    <td class="bayar">Rp 450.000,00</td>
+                    <td class="bayar">Lunas</td>
+                    <td class="bayar">-</td>
+                    <td class="bayar"><a href="#">Detail</a></td>
+                </tr>
+                <tr>
+                    <td class="bayar">Mei</td>
+                    <td class="bayar">Rp 450.000,00</td>
+                    <td class="bayar"><button type="bayar">Bayar</button></td>
+                    <td class="bayar">-</td>
+                    <td class="bayar"></td>
+                </tr>
+            </table>
+
+        </div>
+    </main>
+</body>
+</html>
