@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sistem Manajemen Siswa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav {
+      float: left;
+      width: 200px;
+      background-color: #f1f1f1;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    nav ul li {
+      margin-bottom: 10px;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px;
+      display: block;
+    }
+    
+    nav ul li a:hover {
+      background-color: #ccc;
+    }
+    
+    main {
+      margin-left: 220px;
+      padding: 20px;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    /* Modifikasi untuk tampilan responsif */
+    @media only screen and (max-width: 768px) {
+      nav {
+        display: none;
+      }
+      
+      main {
+        margin: 0;
+        padding: 10px;
+      }
+    }
+    
+    /* Modifikasi ukuran teks responsif */
+    @media only screen and (max-width: 480px) {
+      h2 {
+        font-size: 24px;
+      }
+      
+      td {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sistem Manajemen Siswa</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Main Menu</a></li>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Profil</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2>Data Siswa</h2>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Usia</th>
+          <th>Kelas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>16</td>
+          <td>11A</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>15</td>
+          <td>10B</td>
+        </tr>
+        <!-- tambahkan baris siswa lainnya di sini -->
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
