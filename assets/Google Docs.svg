@@ -1,0 +1,36 @@
+<svg width="78" height="80" viewBox="0 0 78 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Google Docs" clip-path="url(#clip0_88_431)" filter="url(#filter0_bd_88_431)">
+<g id="Vector" filter="url(#filter1_bd_88_431)">
+<path d="M45.5 6.5H19.5C15.925 6.5 13 9.425 13 13V65C13 68.575 15.925 71.5 19.5 71.5H58.5C62.075 71.5 65 68.575 65 65V26L45.5 6.5ZM42.25 61.75H26V55.25H42.25V61.75ZM52 52H26V45.5H52V52ZM52 42.25H26V35.75H52V42.25ZM42.25 29.25V11.375L60.125 29.25H42.25Z" fill="#4867B7"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_bd_88_431" x="-4" y="-4" width="86" height="90" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_88_431"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_88_431" result="effect2_dropShadow_88_431"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_88_431" result="shape"/>
+</filter>
+<filter id="filter1_bd_88_431" x="9" y="2.5" width="60" height="77" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_88_431"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_88_431" result="effect2_dropShadow_88_431"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_88_431" result="shape"/>
+</filter>
+<clipPath id="clip0_88_431">
+<rect width="78" height="78" fill="white"/>
+</clipPath>
+</defs>
+</svg>

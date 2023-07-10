@@ -1,0 +1,76 @@
+.grid-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.grid-item {
+    float: left;
+    width: 28%;
+    padding: 10px;
+    height: auto;
+    margin : 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px; 
+    
+}
+  
+.grid-item-2{
+    width: 60%;
+}
+
+.grid-item-3{
+    width: 92%  ;
+    height: 2000px;
+}
+
+
+.main{
+    position: absolute;
+    margin: -60px 0px 0px 260px ;
+    height: auto;
+    width:84%;
+}
+
+.widget-title{
+    color: rgba(7, 6, 23, 0.40);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal; 
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.widget-icon{
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 90px;
+    height: 90px;
+    margin-top: -50px;
+}
+
+.widget-value{
+    color: #141230;
+    font-size: 26px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+table{
+    width: 100%;
+    padding: 10px;
+}
+
+tr{
+    height: 50px;
+}
+
+td:first-child{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.50); 
+}
+
+td:nth-child(2){
+    text-align: right;
+}
