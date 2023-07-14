@@ -9,6 +9,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+section{
+  margin-top: 40px;
+}
+
 .logo {
   width: 200px;
   height: 90px;
@@ -174,6 +178,7 @@ filter: drop-shadow(5px 5px 6px gray);
 background-color: #4867B7;
 padding: 40px;
 border-radius: 0;
+margin-top: 350px;
 }
 
 .vm-box{
@@ -181,6 +186,314 @@ padding : 15px 40px;
 margin: auto;
 background-color: aliceblue;
 }
+
+
+li{
+  text-align: justify;
+  color: #000;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal; 
+}
+
+*{
+  box-sizing: border-box
+}
+
+
+/* ---- Create Accordion --- */
+
+.accordion{ 
+  max-width: 1240px;
+  height: 260px;
+  display: flex;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+.tab{
+  position: relative;
+  width: 33%;
+  height: 100;
+  padding: 20px;
+  background: #000;
+  color: #FFF;
+  cursor: pointer;
+  transition: width .5s ease;
+  margin:10px;
+  border-radius:10px;
+}
+
+.tab img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all .5s ease;
+  border-radius:10px;
+}
+
+.caption{
+  position: absolute;
+  z-index: 2;
+  white-space: nowrap;
+  top: 150px;
+  opacity: 0;
+}
+
+.caption h2{
+  margin-bottom: 2px;
+  text-overflow:clip;
+  font-size:24px;
+  text-transform:uppercase;
+  text-align: left;
+}
+
+.caption p{
+  margin: 0;
+  font-size: .9rem;
+}
+
+/* --- Hover Effects --- */
+
+.tab:hover img{
+  opacity: .6;
+}
+
+.tab:hover{
+  width: 80%;
+}
+
+.tab:hover .caption{
+  transition: all .5s ease;
+  opacity: 1;
+}
+
+footer{
+  background-color: #4867B7;
+  height: 200px;
+}
+
+.grid-container:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin: auto;
+  height: auto;
+}
+
+.grid-item {
+  float: left;
+  width: 48%;
+  padding: 10px;
+  height: auto;
+  margin : 10px;
+  border-radius: 15px; 
+}
+
+.section-title{
+  color: #4867B7;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.section-title-center{
+  text-align: center;
+}
+
+.grid-item p {
+  text-align: justify;
+}
+
+.fourth-section{
+  position: absolute;
+  background-color: #4867B7;
+}
+
+.fourth-section-item-1{
+  left: 80px;
+  width: 100px;
+  height: 120px;
+  margin-top: -100px;
+  opacity: 90%;
+}
+
+.fourth-section-item-2{
+  left:430px;
+  width: 50px;
+  height: 60px;
+  margin-top: -120px;
+  opacity: 70%;
+}
+
+.fourth-section-item-3{
+  left:500px;
+  width: 30px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 5px;
+  opacity: 40%;
+}
+
+.fourth-section-item-4{
+  left:140px;
+  width: 320px;
+  height: 220px;
+  margin-top: -70px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 5px 10px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.fourth-section-item-5{
+  left:340px;
+  width: 180px;
+  height: 120px;
+  margin-top: 100px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 5px 10px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.fourth-section-item-6{
+  left:110px;
+  width:120px ;
+  height: 80px;
+  margin-top: 110px;
+  border-radius: 5px;
+  opacity: 40%;
+}
+
+.gallery {
+  margin-bottom: 100px;
+}
+
+.gallery-cell {
+  width: auto;
+  height: auto;
+  flex-shrink: 0; 
+  margin-right: 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background: rgba(72, 103, 183, 0.15);
+  box-shadow: 5px 8px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  counter-increment: gallery-cell;
+}
+
+.gallery-image{
+  width: 260px;
+  height: 170px;
+  border-radius: 7px;
+}
+
+.gallery-caption{
+  text-align: left; 
+  margin-bottom: 30px;
+  color: rgba(20, 18, 48, 0.80);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; 
+}
+
+.mansory-section{
+  max-width: 1240px;
+  margin: auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+/* Main CSS */
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+  grid-column: span 2 ;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.footer-grid-item {
+  padding: 20px;
+  text-align: left;
+}
+
+.footer-logo{
+  width: 234px;
+  height: 98px
+}
+
+.straight-line{
+  width: 1px;
+  height: 150px; 
+  background: #FFF; 
+  position: absolute;
+  left:400 ;
+}
+
+.footer-text{
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 20px 0px 0px 30px; 
+}
+
+.bottom-right-corner{
+ margin: 120px 0px 0px 200px; 
+ padding-right: 0;
+  
+}
+
+footer{
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 

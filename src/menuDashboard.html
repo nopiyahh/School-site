@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../css/dashboard.css">
     <link rel="stylesheet" href="../css/template.css">
+    <link rel="stylesheet" href="../css/riwayatPengajuan.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -77,26 +78,47 @@
         <div class="grid-container">
             <div class="grid-item grid-item-2">
                 <p class="widget-title">Daftar Dokumen</p>
-                <span class="widget-value">Terverifikasi</span>
+                <table>
+                    <tr>
+                        <td class="data-dokumen">Kartu Keluarga</td>
+                        <td class="data-dokumen" ><i class="fa-solid fa-eye"></i></td>
+                        <td class="data-dokumen" ><i class="fa-sharp fa-solid fa-circle-check" style="color: #4db94b;"></i></td>
+                    </tr>
+                    <tr>
+                        <td  class="data-dokumen" >Akta Kelahiran</td>
+                        <td class="data-dokumen" ><i class="fa-solid fa-eye"></i></td>
+                        <td class="data-dokumen" ><i class="fa-sharp fa-solid fa-circle-check" style="color: #4db94b;"></i></td>
+                    </tr>
+                    <tr>
+                        <td  class="data-dokumen">KTP Orang Tua</td>
+                        <td class="data-dokumen" ><i class="fa-solid fa-eye"></i></td>
+                        <td class="data-dokumen" ><i class="fa-sharp fa-solid fa-circle-check" style="color: #4db94b;"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="data-dokumen" >Ijazah SMP</td>
+                        <td class="data-dokumen" ><i class="fa-solid fa-eye"></i></td>
+                        <td class="data-dokumen" ><i class="fa-sharp fa-solid fa-circle-check" style="color: #4db94b;"></i></td>
+                    </tr>
+                </table>
             </div>
             <div class="grid-item grid-item">
+                <p class="widget-title">Data Tagihan</p>
                 <table>
-                    <p class="widget-title">Data Tagihan</p>
                     <tr>
-                        <td>Tgl Bayar</td>
-                        <td>23/04/2023</td>
+                        <td class="data-tagihan">Tgl Bayar</td>
+                        <td class="data-tagihan">23/04/2023</td>
                     </tr>
                     <tr>
-                        <td>Metode Pembayaran</td>
-                        <td>Bank BRI</td>
+                        <td class="data-tagihan">Metode Pembayaran</td>
+                        <td class="data-tagihan">Bank BRI</td>
                     </tr>
                     <tr>
-                        <td>Jumlah Pmebayaran</td>
-                        <td>Rp. 350,000</td>
+                        <td class="data-tagihan">Jumlah Pmebayaran</td>
+                        <td class="data-tagihan">Rp. 350,000</td>
                     </tr>
                     <tr>
-                        <td>Status Pembayaran</td>
-                        <td>Lunas</td>
+                        <td class="data-tagihan">Status Pembayaran</td>
+                        <td class="data-tagihan">Lunas</td>
                     </tr>
                 </table>
             </div>
@@ -104,7 +126,36 @@
         <div class="grid-container">
             <div class="grid-item grid-item-3">
                 <p class="widget-title">Daftar Pengajuan Surat</p>
-                <span class="widget-value">Terverifikasi</span>
+                <table>
+                    <tr>
+                        <th class="bayar">Tgl Pengajuan</th>
+                        <th class="bayar">Perihal</th>
+                        <th class="bayar">Status</th>
+                        <th class="bayar">Keterangan</th> 
+                        <th class="bayar"></th>
+                    </tr>
+                    <tr>
+                        <td class="bayar">11/09/2021</td>
+                        <td class="bayar">Lomba</td>
+                        <td class="bayar"><i class="fa-sharp fa-solid fa-circle-check" style="color: #4db94b;"></i></td>
+                        <td class="bayar">-</td>
+                        <td class="bayar"><a href="">Detail</a></td>
+                    </tr>
+                    <tr>
+                        <td class="bayar">03/12/2021</td>
+                        <td class="bayar">Seminar</td>
+                        <td class="bayar"><i class="fa-solid fa-triangle-exclamation" style="color: #fb3232;"></i></td>
+                        <td class="bayar">Kegiatan bertepatan UTS</td>
+                        <td class="bayar"><a href="">Detail</a></td>
+                    </tr>
+                    <tr>
+                        <td class="bayar">28/05/2022</td>
+                        <td class="bayar">Lomba</td>
+                        <td class="bayar"><i class="fa-sharp fa-solid fa-circle-check" style="color: #4db94b;"></i></td>
+                        <td class="bayar">-</td>
+                        <td class="bayar"><a href="">Detail</a></td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>

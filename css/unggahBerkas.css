@@ -7,3 +7,25 @@
     color: #4867B7; 
     font-size: 15px;
 }
+
+.file-input{
+     margin-bottom: 20px;
+}
+
+button{
+    width: 90px;
+    height: 35px;
+    flex-shrink: 0; 
+    border-radius: 7px;
+    border: 1px solid rgba(72, 103, 183, 0.80);
+    font-size: 15px;
+    background: #4867B7; 
+    color: #fff;
+    right: -30px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #445e9f; 
+}

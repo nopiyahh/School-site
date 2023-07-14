@@ -19,6 +19,7 @@
 }
 table{
     padding-top: 20px;
+
 }
 th{
     border-top: 1px solid gray;
@@ -27,3 +28,122 @@ th{
 tr td a {
     text-decoration: none;
 }
+
+.ikon_tahun{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+     
+}
+
+.modal {
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%;
+    overflow:auto; 
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .modal::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 25px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-content table{
+    width: 100%;
+  }
+
+
+  hr{
+    color: rgba(0, 0, 0, 0.40); 
+  }
+
+  .modal .ikon_tahun{
+    background-color: #4db94b;
+    color: #fff;
+    box-shadow: none;
+    font-weight: 600;
+    padding: 7px;
+  }
+
+  .modal-image{
+    width: 100px;
+    height: 40px;
+  }
+
+  .modal p{
+    font-size: 13px;
+  }
+
+
+@media only screen and (max-width: 480px) {
+    h2 {
+      font-size: 24px;
+    }
+
+    td {
+      font-size: 14px;
+    }
+
+    main{
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+        height: auto;
+        border-radius: 0px;
+        position: fixed;
+    }
+    .bayar, .data_pembayaran{
+        font-size: 12px;
+    }
+    table{
+        width: 100%;
+        padding: 0 10px 0 10px;
+    }
+    .judul{
+        padding-left: 10px;
+    }
+    .ikon_bayar, .ikon_tahun{
+        width: 60px;
+        margin: 0px;
+    }
+
+  }

@@ -117,6 +117,7 @@ body{
     scrollbar-width: none;
     overflow: auto;
     overflow-x: hidden;
+    
 }
 
 body::-webkit-scrollbar {
@@ -152,9 +153,17 @@ main::-webkit-scrollbar {
 }
 
 
-@media screen and (max-width: 400px) {
+
+
+@media screen and (max-width: 480px) {
     nav {
         width: 0;
+        position: fixed;
+        float: left;
+    }
+
+    nav img{
+        display: none;
     }
 
     header, main {
@@ -164,6 +173,19 @@ main::-webkit-scrollbar {
     .navigation-open, .navigation-close{
         display: block;
     }
+
+    /* body{
+        display: grid;
+    } */
+    /* header{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    nav,main{
+        grid-column: 1;
+        grid-row:2;
+    } */
   }
 
 

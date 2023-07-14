@@ -1,0 +1,80 @@
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    text-align: justify;
+}
+td{
+    padding: 0px 0px 4px 30px;
+    width: 150px;
+    text-align: center;
+    padding: 7px 0;
+   
+
+    /* border-top: 1px solid gray; */
+}
+
+.garis{
+    width: 760px;
+    padding: 7px;
+    border-bottom: 1px solid rgb(65, 65, 65);
+}
+
+table{
+    padding-top: 10px;
+}
+
+td{
+    text-align: left;
+    padding: 0 0px 10px 0;
+    width: 200px;   
+}
+
+.tombol{
+    text-align: center;
+    padding-top: 20px;
+}
+
+tr{
+    padding-bottom: 20px;
+}
+
+input{
+    width: 182px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(129, 123, 123, 0.80);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+button{
+    background-color: rgb(90, 90, 233);
+    border-radius: 7px;
+    color: white;
+    padding: 2px 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    width: 90px;
+    height: 35px;
+    flex-shrink: 0; 
+    border-radius: 7px;
+    border: 1px solid rgba(72, 103, 183, 0.80);
+    font-size: 15px;
+    background: #4867B7; 
+    color: #fff;
+    right: -30px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #445e9f; 
+}
+
+tr.tabel:first-child{
+    border: 1px solid rgba(72, 103, 183, 0.80);
+}
